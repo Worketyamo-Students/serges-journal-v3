@@ -1,0 +1,34 @@
+ 
+ table{
+    border: 1px solid black;
+    border-collapse: collapse;
+ }
+ tr,td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin:auto;
+ }
+ .jour{
+    font-weight: bold;
+ }
+ .heure{
+    font-style: italic;
+    font-size:20px;
+ }
+ .prefere{
+    color:white;
+    background-color: navy;
+ }
+ td{
+    @font-face {
+        font-family:'Montserrat' Arial ;
+        src: url('Montserrat.otf')
+    }
+ }
+ .jour, .heure{
+    @font-face {
+        font-family:'Poppins' Arial;
+        src: url('Poppins.tff')
+    }
+ }
