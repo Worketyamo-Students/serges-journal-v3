@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+ 
+ 
  
  table{
     border: 1px solid black;
@@ -21,14 +25,16 @@
     background-color: navy;
  }
  td{
-    @font-face {
+    /* @font-face {
         font-family:'Montserrat' Arial ;
         src: url('Montserrat.otf')
-    }
+    } */
+    font-family: 'Montserrat', sans-serif;
  }
  .jour, .heure{
-    @font-face {
+    /* @font-face {
         font-family:'Poppins' Arial;
         src: url('Poppins.tff')
-    }
+    } */
+    font-family: 'Poppins', sans-serif;
  }
